@@ -1,1 +1,1 @@
-Pasta ou projeto de Estudos de HMLT, na ALURA. 
+Projeto de Estudo para HMLT e CSS, na ALURA. Criar um Portfólio em HTML.
