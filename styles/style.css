@@ -35,7 +35,7 @@ body {
 
 .cabecalho__menu__link{
     font-family: var(--fonte-secudaria);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     color: var(--cor-terciaria);
     text-decoration: none;
@@ -46,18 +46,19 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 82px;
 
 }
 
 .apresentacao__conteudo{
-    width: 615px;
+    width: 38.43rem;
     display: flex;
     flex-direction: column;
     gap: 40px;
 }
 
 .apresentacao__conteudo__titulo{
-    font-size: 36px;
+    font-size: 2.25rem;
     font-family: var(--fonte-primaria);
     
 }
@@ -69,7 +70,7 @@ body {
 }
 
 .apresentacao__conteudo__texto{
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: var(--fonte-secudaria);
     text-align: justify;
 
@@ -78,7 +79,7 @@ body {
 .apresentacao__links__subtitulo{
     font-family: var(--fonte-primaria);
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.5rem;
 
 }
 
@@ -91,16 +92,16 @@ body {
 
 }
 
-.apresentacao__links__link{
+.apresentacao__links__navegacao{
     /* background-color: #22D4FD; */
     display: flex;
      justify-content: center;
     gap: 16px;
     border: 2px solid var(--cor-terciaria);
-    width: 378px;
+    width: 50%;
     border-radius: 8px;
     text-align: center;
-    font-size: 24px;
+    font-size: 1.5rem;
     padding: 21.5px 0px;
     text-decoration: none;
     color: var(--cor-secundaira);
@@ -114,12 +115,18 @@ body {
 
 }
 
+.apresentacao__imagem{
+    width: 50%;
+
+
+}
+
 .rodape{
     padding: 12px ;
     color: var(--cor-primária);
     background-color: var(--cor-terciaria);
     text-align: center;
     font-family: var(--fonte-secudaria);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
 }
